@@ -1,6 +1,7 @@
 * {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #b3bcbd;
+  font-family: "Roboto", "Gill Sans", "Helvetica Neue";
+  background-color: #a77e58;
+  color: #dfe0e2;
 }
 
 .container {
@@ -10,8 +11,17 @@
   flex-direction: column;
 }
 .container button {
-  background-color: #ecff70;
+  background-color: #96897b;
+  margin-top: 1em;
   width: 200px;
   height: auto;
   font-size: xx-large;
+  border: 1px solid #dfe0e2;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+.miniText {
+  font-size: small;
+  margin-top: 2em;
 }
